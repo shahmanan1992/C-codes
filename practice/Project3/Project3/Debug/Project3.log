@@ -1,0 +1,33 @@
+﻿Build started 11/22/2014 7:37:15 PM.
+     1>Project "E:\RIT\C++ codes\practice\Project3\Project3\Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(20): error C2039: 'value_type' : is not a member of 'Statistics<Time>'
+                 e:\rit\c++ codes\practice\project3\project3\main.cpp(53) : see reference to function template instantiation 'int showStats<Statistics<Time>>(T)' being compiled
+                 with
+                 [
+                     T=Statistics<Time>
+                 ]
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(20): error C2146: syntax error : missing ',' before identifier 'value_type'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(20): error C2065: 'value_type' : undeclared identifier
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(20): error C2923: 'std::set' : 'value_type' is not a valid template type argument for parameter '_Pr'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(20): error C2514: 'std::set' : class has no constructors
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\set(43) : see declaration of 'std::set'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(21): error C2039: 'value_type' : is not a member of 'Statistics<Time>'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(21): error C2146: syntax error : missing ',' before identifier 'value_type'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(21): error C2065: 'value_type' : undeclared identifier
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(21): error C2923: 'std::ostream_iterator' : 'value_type' is not a valid template type argument for parameter '_Elem'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(21): error C2514: 'std::ostream_iterator' : class has no constructors
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\iterator(302) : see declaration of 'std::ostream_iterator'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(22): error C2663: 'std::_Tree<_Traits>::begin' : 2 overloads have no legal conversion for 'this' pointer
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(22): error C2663: 'std::_Tree<_Traits>::end' : 2 overloads have no legal conversion for 'this' pointer
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(22): error C2780: '_OutTy *std::copy(_InIt,_InIt,_OutTy (&)[_OutSize])' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2140) : see declaration of 'std::copy'
+     1>e:\rit\c++ codes\practice\project3\project3\main.cpp(22): error C2780: '_OutIt std::copy(_InIt,_InIt,_OutIt)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2122) : see declaration of 'std::copy'
+     1>Done Building Project "E:\RIT\C++ codes\practice\Project3\Project3\Project3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
